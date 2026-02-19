@@ -16,6 +16,7 @@ public class Circle {
     public void resize(double newRadius) {
         setRadius(newRadius);
     }
+
     public Circle clone() {
         Circle c = new Circle();
         c.resize(this.getRadius());
